@@ -2,96 +2,98 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Tharit Sinsunthorn
     - name: Languages
-      value: English, German
+      value: English, Japanese, Thai
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master of Aerospace Engineering
+      institution: Tohoku University, Sendai, Japan
+      year: 2024 - 2026
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Aerospace Engineering Master Program course.
+    - title: Bachelor of Engineering
+      institution: Tohoku University, Sendai, Japan
+      year: 2020 - 2024
       description:
-        - Description 1.
-        - Description 2.
+        - International Mechanical and Aerospace Course (IMAC-U).
+    - title: High School
+      institution: Mahidol Wittayanusorn School
+      year: 2017 - 2020
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Innovation team, Space Robotics simulation development
+      institution: SpaceData Inc.
+      year: Feb 2025 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Int-Ball2 Simulator Isaac Sim (github)
+    - title: Space Robotics and Simulation Intern
+      institution: JAOPS
+      year: Oct 2024 - Present
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Implementation of robot operating system inside realistic lunar terrain simulation inside.
+        - Implement rover's sensors and data visualization, using well-know tools, including Foxglove studio, Rerun.io, and YAMCS studio (jaops-sim github).
+    - title: Researcher
+      institution: Tohoku University, Space Robotics Laboratory
+      year: June 2022 - Present
       description:
+        - Develop adaptive RL-based quadrupedal locomotion control on rough terrain in low-gravity environments.
+        - Develop software for module recognition of modular legged robots of Moonshot project Goal 3B.
+        - Machine learning, building neural network, image processing and object detection software development.
+        - Designing CAD models using Solidworks.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Projects & Published Papers
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: '"ISS Intra-Vehicular Robot Operation Simulation" (UKAREN 2025)'
+      year: 2025
+    - title: '"Robotics Simulation and Continuous Integration Platform for Lunar Surface Exploration Rovers and On-orbit Services Missions" (I-SAIRAS 2024, co-author)'
+      year: 2024
+    - title: '"Lunar Surface Visual Rendering, Dynamics, Solar Power and Thermal Simulation for the Operations of Lunar Rover Missions" (IAC 2024, co-author)'
+      year: 2024
+    - title: '"Moonbot 0: Design and Development of a Modular Robot for Lunar Exploration and Assembly Tasks" (SCI)'
+      year: 2024
+    - title: '"Toward Autonomous Assembly of Modular Robots and Structures using Real-time Object Detection and Imitation Learning for Lunar Missions" (AROB-ISBC-SWARM 2024, co-author)'
+      year: 2024
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Programming Languages
+      items:
+        - Python (mainly used), C++, Matlab
+    - title: Frameworks and Libraries
+      items:
+        - NumPy, Pytorch, Pygame, YOLO, Scikit-learn, OpenCV, IsaacLab
+    - title: Robotics Application
+      items:
+        - ROS2, ROS2_control, SLAM, Nav2, Gazebo, Isaacsim
+    - title: Platforms
+      items:
+        - Linux environment
+    - title: Tools
+      items:
+        - Git, Github
+    - title: CAD software
+      items:
+        - Solidworks, Blender
+    - title: Others
+      items:
+        - Tasks and project management, Problem solving, English communication
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2023 - 2025
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Japanese Government (MEXT) Scholarship University Recomendation (SGU)
+    - year: 2018
       items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
+        - The 15th Thailand Astronomy Olympiad Bronze medal award.
+    - year: 2017 - 2019
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - STEM Project problem solving using engineering and communication skills.

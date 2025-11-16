@@ -33,9 +33,6 @@ Here we will give you some tips on how to customize the website. One important t
   - [Scheduled Posts](#scheduled-posts)
     - [Name Format](#name-format)
     - [Important Notes](#important-notes)
-  - [Setting up a Personal Access Token (PAT) for Google Scholar Citation Updates](#setting-up-a-personal-access-token-pat-for-google-scholar-citation-updates)
-    - [Why is a PAT required?](#why-is-a-pat-required)
-    - [How to set up the PAT](#how-to-set-up-the-pat)
 
 <!--te-->
 
@@ -284,7 +281,7 @@ To remove the repositories, you can:
 
 ### You can also remove pages through commenting out front-matter blocks
 
-For `.md` files in [\pages](_pages/) directory, if you do not want to completely edit or delete them but save for later use, you can temporarily disable these variables. But be aware that Jekyll only recognizes front matter when it appears as uncommented. The layout, permalink, and other front-matter behavior are disabled for that file.
+For `.md` files in [\pages](pages/) directory, if you do not want to completely edit or delete them but save for later use, you can temporarily disable these variables. But be aware that Jekyll only recognizes front matter when it appears as uncommented. The layout, permalink, and other front-matter behavior are disabled for that file.
 
 For example, books.md do:
 

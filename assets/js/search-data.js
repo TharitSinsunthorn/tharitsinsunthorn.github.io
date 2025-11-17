@@ -501,14 +501,14 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/Tharit Sinsunthorn", "_blank");
+          window.open("https://www.linkedin.com/in/tharit-sinsunthorn-58376523b", "_blank");
         },
       },{
         id: 'social-researchgate',
         title: 'ResearchGate',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.researchgate.net/profile/Tharit Sinsunthorn/", "_blank");
+          window.open("https://www.researchgate.net/profile/Tharit-Sinsunthorn/", "_blank");
         },
       },{
         id: 'social-rss',
@@ -516,13 +516,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("/feed.xml", "_blank");
-        },
-      },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
         },
       },{
       id: 'light-theme',

@@ -1,10 +1,14 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
+    - name: Name
       value: Tharit Sinsunthorn
+    - name: email
+      value: sintharit1716@gmail.com
+    - name: Nationality
+      value: Thai
     - name: Languages
-      value: English, Japanese, Thai
+      value: English, Japanese, Thai (Native)
 
 - title: Education
   type: time_table
@@ -21,25 +25,25 @@
         - International Mechanical and Aerospace Course (IMAC-U).
     - title: High School
       institution: Mahidol Wittayanusorn School
-      year: 2017 - 2020
+      year: 2017 - 2019
 
 - title: Experience
   type: time_table
   contents:
     - title: Innovation team, Space Robotics simulation development
       institution: SpaceData Inc.
-      year: Feb 2025 - Present
+      year: Feb 2025 - Oct 2025
       description:
-        - Int-Ball2 Simulator Isaac Sim (github)
+        - Int-Ball2 Simulator Isaac Sim.
     - title: Space Robotics and Simulation Intern
       institution: JAOPS
-      year: Oct 2024 - Present
+      year: Oct 2024 - Now
       description:
         - Implementation of robot operating system inside realistic lunar terrain simulation inside.
-        - Implement rover's sensors and data visualization, using well-know tools, including Foxglove studio, Rerun.io, and YAMCS studio (jaops-sim github).
-    - title: Researcher
+        - Implement rover's sensors and data visualization, using well-know tools, including Foxglove studio, Rerun.io, and YAMCS studio.
+    - title: Bachelor's and Master's Research Student
       institution: Tohoku University, Space Robotics Laboratory
-      year: June 2022 - Present
+      year: June 2022 - Now
       description:
         - Develop reinforcement learning for quadruped locomotion on rough terrain in low-gravity environments using Isaac Lab.
         - Develop software for module recognition of modular legged robots of Moonshot project Goal 3B.
@@ -71,7 +75,7 @@
         - NumPy, Pytorch, Pygame, YOLO, Scikit-learn, OpenCV, IsaacLab
     - title: Robotics Application
       items:
-        - ROS2, ROS2_control, SLAM, Nav2, Gazebo, Isaacsim
+        - ROS2, ROS2_control, Isaacsim, Gazebo, Nav2
     - title: Platforms
       items:
         - Linux environment

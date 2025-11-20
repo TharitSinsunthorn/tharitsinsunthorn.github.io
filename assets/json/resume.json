@@ -33,7 +33,7 @@
       "position": "Innovation team, Space Robotics simulation development",
       "url": "",
       "startDate": "2025-02-01",
-      "endDate": "Present",
+      "endDate": "2025-10-01",
       "summary": "Int-Ball2 Simulator Isaac Sim",
       "highlights": []
     },
@@ -42,7 +42,7 @@
       "position": "Space Robotics and Simulation Intern",
       "url": "",
       "startDate": "2024-10-01",
-      "endDate": "Present",
+      "endDate": "Now",
       "summary": "",
       "highlights": [
         "Implementation of robot operating system inside realistic lunar terrain simulation inside.",
@@ -51,13 +51,13 @@
     },
     {
       "name": "Tohoku University, Space Robotics Laboratory",
-      "position": "Researcher",
+      "position": "Bachelor's and Master's Research Student",
       "url": "",
       "startDate": "2022-06-01",
-      "endDate": "Present",
+      "endDate": "Now",
       "summary": "",
       "highlights": [
-        "Develop adaptive RL-based quadrupedal locomotion control on rough terrain in low-gravity environments.",
+        "Develop reinforcement learning for quadruped locomotion on rough terrain in low-gravity environments, using Isaac Lab.",
         "Develop software for module recognition of modular legged robots of Moonshot project Goal 3B.",
         "Machine learning, building neural network, image processing and object detection software development.",
         "Designing CAD models using Solidworks."
@@ -183,10 +183,9 @@
       "keywords": [
         "ROS2",
         "ROS2_control",
-        "SLAM",
-        "Nav2",
+        "Isaacsim",
         "Gazebo",
-        "Isaacsim"
+        "Nav2"
       ]
     },
     {

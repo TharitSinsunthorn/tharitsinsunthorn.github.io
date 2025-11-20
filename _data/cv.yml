@@ -41,7 +41,7 @@
       institution: Tohoku University, Space Robotics Laboratory
       year: June 2022 - Present
       description:
-        - Develop adaptive RL-based quadrupedal locomotion control on rough terrain in low-gravity environments.
+        - Develop reinforcement learning for quadruped locomotion on rough terrain in low-gravity environments using Isaac Lab.
         - Develop software for module recognition of modular legged robots of Moonshot project Goal 3B.
         - Machine learning, building neural network, image processing and object detection software development.
         - Designing CAD models using Solidworks.

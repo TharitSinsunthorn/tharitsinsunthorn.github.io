@@ -386,7 +386,12 @@ ninja.data = [{
             },},{id: "news-tharit-s-master-thesis-midterm-defense",
           title: 'Tharit’s Master thesis midterm-defense.',
           description: "",
-          section: "News",},{id: "projects-rl-locomotion",
+          section: "News",},{id: "projects-moonbot-0",
+          title: 'Moonbot 0',
+          description: "Self-recognition for Modular Legged Robot.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/bachelor_thesis/";
+            },},{id: "projects-rl-locomotion",
           title: 'RL Locomotion',
           description: "Locomotion policy for quadruped robot in low-gravity env.",
           section: "Projects",handler: () => {

@@ -391,6 +391,11 @@ ninja.data = [{
           description: "Self-Recognition for a Modular Legged Robot.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/bachelor_thesis/";
+            },},{id: "projects-int-ball2-digital-twin",
+          title: 'Int-Ball2 Digital Twin',
+          description: "A digital twin of the JEM Internal Ball 2 in Isaac Sim.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/intball2_sim/";
             },},{id: "projects-rl-locomotion",
           title: 'RL Locomotion',
           description: "Locomotion policy for quadruped robot in low-gravity env.",

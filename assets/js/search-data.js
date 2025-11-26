@@ -388,7 +388,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-moonbot-0",
           title: 'Moonbot 0',
-          description: "Self-recognition for Modular Legged Robot.",
+          description: "Self-Recognition for a Modular Legged Robot.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/bachelor_thesis/";
             },},{id: "projects-rl-locomotion",

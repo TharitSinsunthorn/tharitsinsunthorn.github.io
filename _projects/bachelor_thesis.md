@@ -11,12 +11,14 @@ Moonbot is a prototype of modular legged robot of [Moonshot project Goal 3B](htt
 
 The core of this project is a **self-recognition algorithm** {% cite Danish Ai2024 %} that allows the robot to understand its own structure in real-time. Based on the number of legs connected, Moonbot automatically adapts its motion control strategy. This enables a single robotic platform to perform various tasks with different levels of mobility and stability.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/bachelor_thesis/selfrecog.gif" %}
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/inc.mp4" 
+        class="img-fluid rounded z-depth-1" autoplay=true loop=true %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/bachelor_thesis/selfrecog2.gif" %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/dec.mp4" 
+        class="img-fluid rounded z-depth-1" autoplay=true loop=true %}
     </div>
 </div>
 <div class="caption">

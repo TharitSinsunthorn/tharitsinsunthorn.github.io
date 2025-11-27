@@ -408,7 +408,7 @@ ninja.data = [{
               window.location.href = "/projects/master_thesis/";
             },},{id: "projects-visual-servo",
           title: 'Visual Servo',
-          description: ".",
+          description: "Visual-based control for Unitree Go2 and Z1 manipulator arm.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/visual_servo/";
             },},{

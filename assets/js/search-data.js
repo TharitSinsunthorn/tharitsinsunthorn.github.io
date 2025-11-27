@@ -396,8 +396,8 @@ ninja.data = [{
           description: "A digital twin of the JEM Internal Ball 2 in Isaac Sim.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/intball2_sim/";
-            },},{id: "projects-dymon-yaoki-mission-simulation",
-          title: 'Dymon-Yaoki mission simulation',
+            },},{id: "projects-dymon-yaoki-simulation",
+          title: 'Dymon-Yaoki simulation',
           description: "Simulation for Dymon-Yaoki lunar rover deployment from IM2 mission.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/jaops/";

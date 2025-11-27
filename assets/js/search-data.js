@@ -398,7 +398,7 @@ ninja.data = [{
               window.location.href = "/projects/intball2_sim/";
             },},{id: "projects-dymon-yaoki-mission-simulation",
           title: 'Dymon-Yaoki mission simulation',
-          description: ".",
+          description: "Simulation for Dymon-Yaoki lunar rover deployment from IM2 mission.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/jaops/";
             },},{id: "projects-rl-locomotion",
@@ -406,6 +406,11 @@ ninja.data = [{
           description: "Locomotion policy for quadruped robot in low-gravity env.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/master_thesis/";
+            },},{id: "projects-visual-servo",
+          title: 'Visual Servo',
+          description: ".",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/visual_servo/";
             },},{
         id: 'social-cv',
         title: 'CV',

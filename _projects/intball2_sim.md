@@ -11,7 +11,7 @@ related_publications: true
 As I had a chance to join the [Innovation team of Spacedata Inc.](https://spacedata.jp/news/2519_innovation_team_1). I was responsible for space robotics simulation development. So this project involved the creation of a photorealistics simulation environment for the **JEM Internal Ball Camera 2 (Int-Ball2)**, a free-flying camera robot used inside the Japanese Experiment Module "Kibo" on the International Space Station (ISS). The goal was to develop a digital twin of the robot using NVIDIA Isaac Sim.
 
 <div class="row justify-content-sm-center mt-3">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-12 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/intball2_sim/intball2_sim2.png" title="Int-Ball2 Isaac sim" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

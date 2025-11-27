@@ -1,12 +1,13 @@
 ---
 layout: page
-title: Dymon-Yaoki mission simulation
+title: Dymon-Yaoki simulation
 description: Simulation for Dymon-Yaoki lunar rover deployment from IM2 mission.
 img: assets/img/jaops/im2.png
 importance: 4
 category: work
 related_publications: false
 ---
+
 During my internship in space robotics simulation at [JAOPS](https://www.jaops.com/), I had the opportunity to work on several exciting projects. One of my most significant contributions was developing the simulation for the **Dymon-Yaoki lunar rover** as part of its mission integration with the Intuitive Machines IM-2 lander.
 
 The goal of this work was to create a high-fidelity simulation to verify the rover's deployment sequence and operational procedures on the lunar surface. This involved modeling the dynamic parts of the lander, the rover, and the lunar terrain environment.

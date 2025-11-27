@@ -2,22 +2,21 @@
 layout: page
 title: Visual Servo
 description: .
-img: assets/img/jaops/im2.png
+img: assets/img/visual_servo/visualservo_go2.png
 importance: 4
-category: work
+category: fun
 related_publications: false
 ---
-During my internship in space robotics simulation at [JAOPS](https://www.jaops.com/), I had the opportunity to work on several exciting projects. One of my most significant contributions was developing the simulation for the **Dymon-Yaoki lunar rover** as part of its mission integration with the Intuitive Machines IM-2 lander.
 
-The goal of this work was to create a high-fidelity simulation to verify the rover's deployment sequence and operational procedures on the lunar surface. This involved modeling the dynamic parts of the lander, the rover, and the lunar terrain environment.
+For my university image processing class, I created a fun project called "Visual Servo." The goal was to develop a system that uses computer vision to control and guide a robot or device based on visual feedback. I implemented basic image processing techniques to detect and track the poisition of the red ball in real time. The control of Z1 manipulator arm is handled by [Moveit2](https://moveit.picknik.ai/main/index.html). The below video is conducted in Gazebo simulation.
 
-Below is a demonstration of the simulation, showcasing the Yaoki rover deploying from the IM-2 lander and beginning its exploration mission.
+<!-- <div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/lunar_rough.mp4" class="img-fluid rounded z-depth-1" autoplay=true loop=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/lunar_rough2.mp4" class="img-fluid rounded z-depth-1" autoplay=true loop=true %}
+    </div>
+</div> -->
 
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9twxSQThw-g" allowfullscreen></iframe>
-</div>
-<div class="caption">
-    Simulation of the JAOPS simulation: Yaoki rover's deployment from the IM-2 lander.
-</div>
-
-This project was a valuable experience in developing complex, multi-body simulations for real-world space missions and played a role in the verification process for the flight model.
+The core method involved using color segmentation and contour detection to identify the target object in the camera feed. Once detected, the system calculated the object's position and sent commands to adjust the manipulator arm movement, keeping the target centered in view. This hands-on project helped me understand practical applications of image processing and control systems, especially the usage of OpenCV and Moveit2. and it was a rewarding experience to see theory come to life through experimentation.
